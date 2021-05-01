@@ -16,6 +16,8 @@ public class Allergies
 {
     public Allergies(int mask)
     {
+        //2021-05-01 JMF
+        //to do: mask, git test (comments)
     }
 
     public bool IsAllergicTo(Allergen allergen)
