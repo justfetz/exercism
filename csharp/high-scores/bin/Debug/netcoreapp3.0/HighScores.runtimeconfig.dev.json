@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\jfetzer\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\jfetzer\\.nuget\\packages"
+    ]
+  }
+}
