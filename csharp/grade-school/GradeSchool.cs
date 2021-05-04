@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class GradeSchool
 {
-    //2 dimensional list
 
-    Dictionary<string, int> openSchool =
-    new Dictionary<string, int>();
+    Dictionary<string, int> openSchool = new Dictionary<string, int>();
+
     public void Add(string student, int grade)
     {
         if(openSchool.ContainsKey(student)) 
@@ -15,7 +15,6 @@ public class GradeSchool
         }
         else
         {
-            //openSchool.
             openSchool.Add(student, grade);
         }
     }
@@ -23,22 +22,12 @@ public class GradeSchool
     public IEnumerable<string> Roster()
     {
          
-        List<string> ros = new List<string>();
-        foreach (KeyValuePair<string, int> kvp in openSchool)
-            {
-            ros.Add((kvp.Key, kvp.Value).ToString());
-            }
-            return ros;
+        return openSchool.OrderBy(x => x.Value).ThenBy(x => x.Key).Select(x => x.Key); 
             
     }
 
     public IEnumerable<string> Grade(int grade)
     {
-    List<string> ros = new List<string>();
-        foreach (KeyValuePair<string, int> kvp in openSchool)
-            {
-            ros.Add((kvp.Key, kvp.Value).ToString());
-            }
-            return ros;
+        return openSchool.Where(x => x.Value == grade).Select(x => x.Key).OrderBy(x => x);
     }
 }
