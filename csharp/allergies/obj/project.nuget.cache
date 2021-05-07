@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+v/6qQMwEGjuL0fxOmxaF5ILRkAWWETHSaUsoEqsTXMMw2xFKM4Owee0WsH/05ENmadANhpS01o+9CMbb+XBcw==",
+  "dgSpecHash": "ulnQJGBIhuvw6TQKDFyhdHKHRnBE+RMtrbH9m5kcTM7ctuRmiB3Xu+yJN2j7G/GRJt1qAQbYXfkSifRIWmM7dA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jfetzer\\Exercism\\csharp\\allergies\\Allergies.csproj",
   "expectedPackageFiles": [

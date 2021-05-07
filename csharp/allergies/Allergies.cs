@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public enum Allergen
 {
@@ -12,21 +14,33 @@ public enum Allergen
     Cats
 }
 
+
 public class Allergies
 {
+    private int mask;
+    //private List<string> allergens;
+    
     public Allergies(int mask)
     {
-        //2021-05-01 JMF
-        //to do: mask, git test (comments)
+        this.mask = mask;
     }
 
     public bool IsAllergicTo(Allergen allergen)
     {
-        throw new NotImplementedException("You need to implement this function.");
+        int x = (int)allergen;
+        return (x  &  mask) > mask;
     }
 
     public Allergen[] List()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        
+        List<Allergen> allergenList = new List<Allergen>();
+        foreach(Allergen all in Enum.GetValues(typeof(Allergen))) {
+            if(IsAllergicTo(all)) {
+                allergenList.Add(all);
+            }       
+        }
+        return allergenList.ToArray();   
+          
     }
 }
