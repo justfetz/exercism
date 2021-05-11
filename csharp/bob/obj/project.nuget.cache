@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vyqGiT9Ge61JdPNvSnsAurVAPm3EqYVcaORxvTA9srFvflhfWaxnKGRBeUBiRRmnSpAyCeRNp4XpQlLdofruBA==",
+  "dgSpecHash": "6fWPTNnFmcUZ3EqukwNTnrFGTiItTb4vn0eaJw5ZVmU41S17uhW2glHZH9ESpTfknf4DUPiZsThfh4LNc7+Qvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jfetzer\\Exercism\\csharp\\bob\\Bob.csproj",
   "expectedPackageFiles": [
@@ -94,9 +94,9 @@
     "C:\\Users\\jfetzer\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\jfetzer\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\jfetzer\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "C:\\Users\\jfetzer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
     "C:\\Users\\jfetzer\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\jfetzer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+    "C:\\Users\\jfetzer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\jfetzer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
   ],
   "logs": []
 }
